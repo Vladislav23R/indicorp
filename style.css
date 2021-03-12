@@ -823,6 +823,12 @@ h6 {
   }
 }
 
+@media (max-width: 416px) {
+  .section-customers__item:not(:first-child) {
+    margin-top: 60px;
+  }
+}
+
 .section-get-in-touch {
   background-color: #f3f3f3;
   text-align: center;
