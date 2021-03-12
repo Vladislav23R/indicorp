@@ -593,6 +593,11 @@ h6 {
             display: none;
         }
     }
+    &__item:not(:first-child) {
+        @media (max-width: 416px) {
+            margin-top: 60px;
+        }
+    }
 }
 
 // === / customers ===
